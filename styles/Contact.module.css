@@ -1,0 +1,103 @@
+.main {
+    max-width: 50rem;
+    margin: auto;
+    padding: 50px;
+
+
+}
+
+.fillin {
+    font-size: 25px;
+    padding-bottom:5px;
+    font-weight: 450;
+
+}
+
+.form {
+   
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-top: 1px solid rgb(0, 0, 0, 0.2) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+
+.input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.05px solid rgb(0, 0, 0, 0.2);
+
+  
+    padding: 10px;
+    background-color: rgb(169, 212, 179, 0.1);
+}
+
+.errorinput {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1.5px solid rgb(254, 0, 0);
+   
+    
+    padding: 10px;
+    background-color: rgb(169, 212, 179, 0.1);
+}
+
+.button {
+    padding: 10px;
+    background-color: #e9844c;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.disabledbutton {
+    padding: 10px;
+    background-color: #e9834cab;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.button:hover {
+    box-shadow:  0px 0px 7px rgb(0, 0, 0, 0.3);
+    filter: brightness(105%);
+}
+
+.textarea {
+    border: 0.05px solid rgb(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.3);
+  
+    padding: 10px;
+    background-color: rgb(169, 212, 179, 0.1);
+    height: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.errordiv {
+    background-color: antiquewhite;
+}
+
+.error{
+    padding: 15px;
+    color: red;
+    font-size: 12px;
+}

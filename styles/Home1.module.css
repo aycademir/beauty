@@ -1,0 +1,39 @@
+.main {
+    background-color: #fdffd9;
+    display: flex;
+}
+
+.text {
+    padding: 4%;
+}
+
+.title {
+    padding-bottom:10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #e9844c;
+}
+
+
+@media only screen and (max-width: 500px){
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 18px;
+    }
+}
+    
+
+    
+
+@media only screen and (max-width: 1000px) and (min-width: 500px){
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,83 @@
+.main {
+    width: 360px;
+    background-color: azure;
+    margin-top: 80px;
+    box-shadow: 0px 3px 6px 1px rgb(0, 0, 0, 0.1);
+}
+.main:hover{
+    filter: brightness(96%);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #e9844c;
+    padding: 20px;
+}
+
+.text {
+    padding: 0px 20px 20px 20px;
+}
+
+.image{
+    object-fit: cover;
+    object-position: 0 40%;
+}
+
+@media only screen and (min-width:500px) and (max-width: 1000px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        height: 20vh;
+        margin-top:0px;
+        margin-bottom: 30px;
+
+    }
+    .image_container .image{
+        width: 40vw;
+        height: 20vh;
+        object-position: center;
+    }
+
+    .text {
+        height: 85px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .main {
+        width: 95vw;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+
+    .image_container .image{
+        width: 95vw;
+        height: 30vh;
+        object-position: center;
+    }
+
+    .text {
+        height: 70px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
+    .ana {
+        padding-bottom:20px;
+    }
+}

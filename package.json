@@ -1,0 +1,29 @@
+{
+  "name": "beauty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "@react-google-maps/api": "^2.19.0",
+    "framer-motion": "^10.13.0",
+    "mongoose": "^7.4.0",
+    "next": "13.4.10",
+    "nodemailer": "^6.9.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swiper": "^10.0.4",
+    "use-places-autocomplete": "^4.0.0"
+  }
+}
